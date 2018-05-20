@@ -38,7 +38,7 @@ Development | [![Build status](https://ci.appveyor.com/api/projects/status/1r61o
 The purpose of the SDK is to enable satsearch in C# projects. The satsearch API provides the means to search for **products** filtering on **categories** and **suppliers**. 
 
 Two tokens are required to access the API:
-  - Application Token: A token that can be requested from satsearch to integrate an application with satsearch. This is sent to the service using the **X-APP-ID** HTTP header.
+  - Application Token: A token that can be [requested from satsearch](mailto:info@satsearch.co?Subject=Request%20for%20X-APP-ID) to integrate an application with satsearch. This is sent to the service using the **X-APP-ID** HTTP header.
   - API Token: A token that is requested by each end-user that wants to make use of satsearch. An API token can be requested by a user after [registering](https://satsearch.co/register) with satsearch.
 
 The following code snippet provides a sample of how the satsearch-SDK can be used:
